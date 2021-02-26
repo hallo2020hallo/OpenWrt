@@ -101,6 +101,7 @@ CONFIG_PACKAGE_luci-app-unblockmusic=n
 CONFIG_UnblockNeteaseMusic_Go=n
 CONFIG_UnblockNeteaseMusic_NodeJS=n
 # vpn
+CONFIG_PACKAGE_luci-app-koolddns
 CONFIG_PACKAGE_luci-app-ssr-plus=y
 CONFIG_PACKAGE_luci-app-openclash=n
 CONFIG_PACKAGE_luci-app-bypass=n
@@ -121,7 +122,7 @@ cat >> .config <<EOF
 CONFIG_PACKAGE_luci-app-music-remote-center=n
 CONFIG_PACKAGE_luci-app-airplay2=n
 CONFIG_PACKAGE_luci-app-vsftpd=n
-CONFIG_PACKAGE_luci-app-ddns=y
+CONFIG_PACKAGE_luci-app-ddns=n
 CONFIG_PACKAGE_luci-app-xlnetacc=n
 CONFIG_PACKAGE_luci-app-wol=n
 CONFIG_PACKAGE_luci-app-upnp=n
