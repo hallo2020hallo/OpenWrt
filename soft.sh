@@ -87,6 +87,9 @@ svn co https://github.com/firker/diy-ziyong/trunk/luci-app-smartdns
 # serverchan 
 git clone https://github.com/tty228/luci-app-serverchan.git
 
+# aliyunDNS
+git clone https://github.com/sensec/ddns-scripts_aliyun.git
+
 #透明网桥
 # svn co https://github.com/kingyan/bridge/trunk/luci-app-bridge
 
