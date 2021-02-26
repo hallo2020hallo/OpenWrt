@@ -102,8 +102,8 @@ CONFIG_UnblockNeteaseMusic_Go=n
 CONFIG_UnblockNeteaseMusic_NodeJS=n
 # vpn
 CONFIG_PACKAGE_luci-app-ssr-plus=y
-CONFIG_PACKAGE_luci-app-openclash=y
-CONFIG_PACKAGE_luci-app-bypass=y
+CONFIG_PACKAGE_luci-app-openclash=n
+CONFIG_PACKAGE_luci-app-bypass=n
 #CONFIG_PACKAGE_luci-app-vssr=n
 #CONFIG_PACKAGE_luci-app-vssr-plus=y
 CONFIG_PACKAGE_luci-app-passwall=y
@@ -114,14 +114,14 @@ CONFIG_PACKAGE_luci-app-jd-dailybonus=n
 CONFIG_PACKAGE_luci-app-uugamebooster=n
 CONFIG_PACKAGE_luci-app-smartdns=n
 CONFIG_PACKAGE_luci-app-netdata=y
-CONFIG_PACKAGE_luci-app-serverchan=y
+CONFIG_PACKAGE_luci-app-serverchan=n
 EOF
 # 取消默认插件
 cat >> .config <<EOF
 CONFIG_PACKAGE_luci-app-music-remote-center=n
 CONFIG_PACKAGE_luci-app-airplay2=n
 CONFIG_PACKAGE_luci-app-vsftpd=n
-CONFIG_PACKAGE_luci-app-ddns=n
+CONFIG_PACKAGE_luci-app-ddns=y
 CONFIG_PACKAGE_luci-app-xlnetacc=n
 CONFIG_PACKAGE_luci-app-wol=n
 CONFIG_PACKAGE_luci-app-upnp=n
@@ -139,8 +139,8 @@ CONFIG_PACKAGE_luci-app-ipsec-vpnd=n
 EOF
 # LuCI主题:
 cat >> .config <<EOF
-CONFIG_PACKAGE_luci-theme-atmaterial=y
-CONFIG_PACKAGE_luci-theme-argon=n
+CONFIG_PACKAGE_luci-theme-atmaterial=n
+CONFIG_PACKAGE_luci-theme-argon=y
 EOF
 # 常用软件包:
 cat >> .config <<EOF
